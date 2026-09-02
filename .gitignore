@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Trading research data
+*.csv
+*.parquet
+*.feather
+
+# Large model/output files
+*.pkl
+*.pickle
+*.joblib
