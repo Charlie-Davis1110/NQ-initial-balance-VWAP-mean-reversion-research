@@ -70,7 +70,7 @@ The backtests evaluate:
 
 ## Results
 
-The research showed that the IB Low → VWAP setup gave positive results across the stop-loss values tested, while the IB High → VWAP setup was consistently negative so was not used in backtest. A 20-point stop was used for the backtests based on the MAE results.
+The research showed that the IB Low → VWAP setup gave positive results across the stop-loss values tested, while the IB High → VWAP setup was consistently negative so was not used in backtest. A 20-point stop was used for the backtests based on the MAE results. The size taken for each position being opened is 1 mini NQ contract. This is equal to $20 per point of movement.
 
 | Metric                         | Non-Conservative | Conservative |
 | ------------------------------ | ---------------: | -----------: |
